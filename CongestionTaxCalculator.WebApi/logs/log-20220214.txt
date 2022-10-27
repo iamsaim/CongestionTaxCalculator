@@ -1,0 +1,28 @@
+2022-02-14 18:22:58.032 +05:00 [FTL] Host terminated unexpectedly
+System.InvalidOperationException: Relational-specific methods can only be used when the context is using a relational database provider.
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.GetRelationalService[TService](IInfrastructure`1 databaseFacade)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.Migrate(DatabaseFacade databaseFacade)
+   at CongestionTaxCalculator.Persistance.Seeds.ContextSeed.CheckAndSeedData(IServiceCollection services, Boolean isStartedWithMain) in D:\Saim\CongestionTaxCalculator\CongestionTaxCalculator.Persistance\Seeds\ContextSeed.cs:line 21
+   at CongestionTaxCalculator.WebApi.Startup.ConfigureServices(IServiceCollection services) in D:\Saim\CongestionTaxCalculator\CongestionTaxCalculator.WebApi\Startup.cs:line 39
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Span`1& arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.InvokeCore(Object instance, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.<>c__DisplayClass9_0.<Invoke>g__Startup|0(IServiceCollection serviceCollection)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.Invoke(Object instance, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.<>c__DisplayClass8_0.<Build>b__0(IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.UseStartup(Type startupType, HostBuilderContext context, IServiceCollection services, Object instance)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass13_0.<UseStartup>b__0(HostBuilderContext context, IServiceCollection services)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at CongestionTaxCalculator.WebApi.Program.Main(String[] args) in D:\Saim\CongestionTaxCalculator\CongestionTaxCalculator.WebApi\Program.cs:line 23
+2022-02-14 18:23:56.052 +05:00 [INF] Now listening on: http://localhost:5179
+2022-02-14 18:23:56.080 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-02-14 18:23:56.081 +05:00 [INF] Hosting environment: Development
+2022-02-14 18:23:56.082 +05:00 [INF] Content root path: D:\Saim\CongestionTaxCalculator\CongestionTaxCalculator.WebApi
+2022-02-14 18:23:57.275 +05:00 [INF] HTTP GET /swagger responded 301 in 42.7644 ms
+2022-02-14 18:23:57.593 +05:00 [INF] HTTP GET /swagger/index.html responded 200 in 269.4061 ms
+2022-02-14 18:23:57.610 +05:00 [INF] HTTP GET /swagger/swagger-ui.css responded 200 in 19.1543 ms
+2022-02-14 18:23:57.725 +05:00 [INF] HTTP GET /swagger/swagger-ui-standalone-preset.js responded 200 in 66.0446 ms
+2022-02-14 18:23:57.732 +05:00 [INF] HTTP GET /swagger/swagger-ui-bundle.js responded 200 in 77.7914 ms
+2022-02-14 18:23:58.086 +05:00 [INF] HTTP GET /swagger/favicon-32x32.png responded 200 in 0.1815 ms
+2022-02-14 18:23:58.162 +05:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 115.3012 ms

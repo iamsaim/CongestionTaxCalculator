@@ -1,0 +1,206 @@
+2022-02-16 07:02:46.032 +05:00 [INF] Now listening on: http://localhost:5179
+2022-02-16 07:02:46.070 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-02-16 07:02:46.072 +05:00 [INF] Hosting environment: Development
+2022-02-16 07:02:46.073 +05:00 [INF] Content root path: D:\Saim\CongestionTaxCalculator\CongestionTaxCalculator.WebApi
+2022-02-16 07:02:47.558 +05:00 [INF] HTTP GET /swagger/index.html responded 200 in 291.7633 ms
+2022-02-16 07:02:48.389 +05:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 397.5599 ms
+2022-02-16 07:02:55.833 +05:00 [INF] HTTP GET /v1/city/All responded 200 in 701.2421 ms
+2022-02-16 12:18:25.483 +05:00 [INF] Now listening on: http://localhost:5179
+2022-02-16 12:18:25.517 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-02-16 12:18:25.519 +05:00 [INF] Hosting environment: Development
+2022-02-16 12:18:25.520 +05:00 [INF] Content root path: D:\Saim\CongestionTaxCalculator\CongestionTaxCalculator.WebApi
+2022-02-16 12:18:26.771 +05:00 [INF] HTTP GET /swagger/index.html responded 200 in 188.3619 ms
+2022-02-16 12:18:27.174 +05:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 158.3736 ms
+2022-02-16 12:22:59.728 +05:00 [INF] Now listening on: http://localhost:5179
+2022-02-16 12:22:59.765 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-02-16 12:22:59.766 +05:00 [INF] Hosting environment: Development
+2022-02-16 12:22:59.767 +05:00 [INF] Content root path: D:\Saim\CongestionTaxCalculator\CongestionTaxCalculator.WebApi
+2022-02-16 12:23:01.099 +05:00 [INF] HTTP GET /swagger/index.html responded 200 in 225.2932 ms
+2022-02-16 12:23:01.599 +05:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 152.7810 ms
+2022-02-16 12:36:30.758 +05:00 [INF] Now listening on: http://localhost:5179
+2022-02-16 12:36:30.795 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-02-16 12:36:30.797 +05:00 [INF] Hosting environment: Development
+2022-02-16 12:36:30.798 +05:00 [INF] Content root path: D:\Saim\CongestionTaxCalculator\CongestionTaxCalculator.WebApi
+2022-02-16 12:36:31.870 +05:00 [INF] HTTP GET /swagger/index.html responded 200 in 164.5844 ms
+2022-02-16 12:36:32.288 +05:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 134.1971 ms
+2022-02-16 12:36:56.551 +05:00 [INF] HTTP GET /v1/city/All responded 200 in 564.7368 ms
+2022-02-16 12:37:11.199 +05:00 [ERR] Unhandled Exception for Request GetAllTaxSchedulesByCityIdQuery {"CityId":"a81208d7-390d-4413-a06d-9db630dcb86d","$type":"GetAllTaxSchedulesByCityIdQuery"}
+CongestionTaxCalculator.Application.Common.Exceptions.NotFoundException: City not found
+   at CongestionTaxCalculator.Application.Features.TaxSchedule.Query.GetAllTaxSchedulesByCityIdHandler.Handle(GetAllTaxSchedulesByCityIdQuery request, CancellationToken cancellationToken) in D:\Saim\CongestionTaxCalculator\CongestionTaxCalculator.Application\Features\TaxSchedule\Query\GetAllTaxSchedulesByCityIdQuery.cs:line 43
+   at CongestionTaxCalculator.Application.Common.Behaviours.UnhandledExceptionBehaviour`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next) in D:\Saim\CongestionTaxCalculator\CongestionTaxCalculator.Application\Common\Behaviours\UnhandledExceptionBehaviour.cs:line 19
+2022-02-16 12:37:11.546 +05:00 [ERR] Exception occurred CongestionTaxCalculator.Application.Common.Exceptions.NotFoundException: City not found
+   at CongestionTaxCalculator.Application.Features.TaxSchedule.Query.GetAllTaxSchedulesByCityIdHandler.Handle(GetAllTaxSchedulesByCityIdQuery request, CancellationToken cancellationToken) in D:\Saim\CongestionTaxCalculator\CongestionTaxCalculator.Application\Features\TaxSchedule\Query\GetAllTaxSchedulesByCityIdQuery.cs:line 43
+   at CongestionTaxCalculator.Application.Common.Behaviours.UnhandledExceptionBehaviour`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next) in D:\Saim\CongestionTaxCalculator\CongestionTaxCalculator.Application\Common\Behaviours\UnhandledExceptionBehaviour.cs:line 19
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at CongestionTaxCalculator.Infrastructure.Services.TaxScheduleService.GetAllTaxSchedule(Guid CityId) in D:\Saim\CongestionTaxCalculator\CongestionTaxCalculator.Infrastructure\Services\TaxScheduleService.cs:line 24
+   at CongestionTaxCalculator.WebApi.Controllers.TaxScheduleController.GetAllTaxSchedule(Guid cityId) in D:\Saim\CongestionTaxCalculator\CongestionTaxCalculator.WebApi\Controllers\TaxScheduleController.cs:line 24
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2022-02-16 12:37:11.559 +05:00 [INF] HTTP GET /v1/taxSchedule/All/a81208d7-390d-4413-a06d-9db630dcb86d responded 404 in 803.3699 ms
+2022-02-16 12:41:24.636 +05:00 [INF] Now listening on: http://localhost:5179
+2022-02-16 12:41:24.686 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-02-16 12:41:24.688 +05:00 [INF] Hosting environment: Development
+2022-02-16 12:41:24.690 +05:00 [INF] Content root path: D:\Saim\CongestionTaxCalculator\CongestionTaxCalculator.WebApi
+2022-02-16 12:41:25.985 +05:00 [INF] HTTP GET /swagger/index.html responded 200 in 219.3721 ms
+2022-02-16 12:41:26.351 +05:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 127.3002 ms
+2022-02-16 16:25:01.382 +05:00 [INF] Now listening on: http://localhost:5179
+2022-02-16 16:25:01.511 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-02-16 16:25:01.513 +05:00 [INF] Hosting environment: Development
+2022-02-16 16:25:01.514 +05:00 [INF] Content root path: D:\Saim\CongestionTaxCalculator\CongestionTaxCalculator.WebApi
+2022-02-16 16:25:02.513 +05:00 [INF] HTTP GET /swagger responded 301 in 17.0466 ms
+2022-02-16 16:25:03.935 +05:00 [INF] HTTP GET /swagger/index.html responded 200 in 1365.9187 ms
+2022-02-16 16:25:04.185 +05:00 [INF] HTTP GET /swagger/swagger-ui.css responded 200 in 144.3850 ms
+2022-02-16 16:25:04.222 +05:00 [INF] HTTP GET /swagger/swagger-ui-standalone-preset.js responded 200 in 181.5759 ms
+2022-02-16 16:25:04.260 +05:00 [INF] HTTP GET /swagger/swagger-ui-bundle.js responded 200 in 219.9242 ms
+2022-02-16 16:25:04.586 +05:00 [INF] HTTP GET /swagger/favicon-32x32.png responded 200 in 0.4899 ms
+2022-02-16 16:25:04.736 +05:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 190.1637 ms
+2022-02-16 16:25:09.822 +05:00 [INF] HTTP GET /v1/city/All responded 200 in 870.4208 ms
+2022-02-16 16:31:28.413 +05:00 [INF] Now listening on: http://localhost:5179
+2022-02-16 16:31:28.470 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-02-16 16:31:28.472 +05:00 [INF] Hosting environment: Development
+2022-02-16 16:31:28.474 +05:00 [INF] Content root path: D:\Saim\CongestionTaxCalculator\CongestionTaxCalculator.WebApi
+2022-02-16 16:31:29.681 +05:00 [INF] HTTP GET /swagger/index.html responded 200 in 212.5232 ms
+2022-02-16 16:31:30.305 +05:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 161.0302 ms
+2022-02-16 16:31:34.333 +05:00 [INF] HTTP GET /v1/city/All responded 200 in 393.6006 ms
+2022-02-16 16:31:57.229 +05:00 [INF] HTTP GET /v1/taxSchedule/All/97bc3555-f07a-4874-9781-af17a320dbd3 responded 200 in 8211.4016 ms
+2022-02-16 16:32:50.524 +05:00 [INF] HTTP GET /v1/taxfreeday/All/97bc3555-f07a-4874-9781-af17a320dbd3 responded 200 in 58.9008 ms
+2022-02-16 16:38:38.514 +05:00 [INF] Now listening on: http://localhost:5179
+2022-02-16 16:38:38.554 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-02-16 16:38:38.556 +05:00 [INF] Hosting environment: Development
+2022-02-16 16:38:38.557 +05:00 [INF] Content root path: D:\Saim\CongestionTaxCalculator\CongestionTaxCalculator.WebApi
+2022-02-16 16:38:39.625 +05:00 [INF] HTTP GET /swagger/index.html responded 200 in 215.0026 ms
+2022-02-16 16:38:40.125 +05:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 181.0982 ms
+2022-02-16 16:38:51.369 +05:00 [INF] HTTP GET /v1/city/All responded 200 in 311.6632 ms
+2022-02-16 16:39:07.046 +05:00 [INF] HTTP GET /v1/taxexemptvehicle/All/8818a916-33d2-41a3-99f2-e47dd012c217 responded 200 in 84.4718 ms
+2022-02-16 18:29:16.375 +05:00 [INF] Now listening on: http://localhost:5179
+2022-02-16 18:29:16.456 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-02-16 18:29:16.458 +05:00 [INF] Hosting environment: Development
+2022-02-16 18:29:16.459 +05:00 [INF] Content root path: D:\Saim\CongestionTaxCalculator\CongestionTaxCalculator.WebApi
+2022-02-16 18:29:17.334 +05:00 [INF] HTTP GET /swagger/index.html responded 200 in 269.6460 ms
+2022-02-16 18:29:17.898 +05:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 180.1263 ms
+2022-02-16 18:29:24.656 +05:00 [INF] HTTP GET /v1/city/All responded 200 in 365.9051 ms
+2022-02-16 18:30:25.967 +05:00 [INF] HTTP POST /v1/vehicle responded 200 in 131.8317 ms
+2022-02-16 18:31:06.773 +05:00 [INF] HTTP GET /v1/vehicle/All/dec08b29-c4d1-4f81-8081-8d743b6bfcd5 responded 200 in 51.3012 ms
+2022-02-16 18:32:15.727 +05:00 [INF] HTTP POST /v1/congestiontax responded 200 in 136.4843 ms
+2022-02-16 18:32:38.826 +05:00 [INF] HTTP GET /v1/congestiontax/All/dec08b29-c4d1-4f81-8081-8d743b6bfcd5/502fe105-de44-4c74-9869-fd0ea01815de responded 200 in 38.9784 ms
+2022-02-16 18:33:33.829 +05:00 [INF] HTTP POST /v1/congestiontax responded 200 in 44.0033 ms
+2022-02-16 18:33:40.045 +05:00 [INF] HTTP GET /v1/congestiontax/All/dec08b29-c4d1-4f81-8081-8d743b6bfcd5/502fe105-de44-4c74-9869-fd0ea01815de responded 200 in 20.4487 ms
+2022-02-16 18:37:40.330 +05:00 [INF] HTTP POST /v1/congestiontax responded 200 in 173542.3377 ms
+2022-02-16 18:40:31.858 +05:00 [INF] Now listening on: http://localhost:5179
+2022-02-16 18:40:31.902 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-02-16 18:40:31.905 +05:00 [INF] Hosting environment: Development
+2022-02-16 18:40:31.907 +05:00 [INF] Content root path: D:\Saim\CongestionTaxCalculator\CongestionTaxCalculator.WebApi
+2022-02-16 18:40:33.040 +05:00 [INF] HTTP GET /swagger/index.html responded 200 in 229.2859 ms
+2022-02-16 18:40:33.492 +05:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 161.8133 ms
+2022-02-16 18:40:40.755 +05:00 [INF] HTTP GET /v1/city/All responded 200 in 332.8799 ms
+2022-02-16 18:40:52.657 +05:00 [INF] HTTP POST /v1/vehicle responded 200 in 122.2147 ms
+2022-02-16 18:40:57.740 +05:00 [INF] HTTP GET /v1/vehicle/All responded 200 in 34.3006 ms
+2022-02-16 18:51:55.427 +05:00 [INF] HTTP POST /v1/congestiontax responded 200 in 13112.7677 ms
+2022-02-16 18:51:59.313 +05:00 [INF] HTTP GET /v1/congestiontax/All/c468b72a-5293-40ee-a180-ddf5c07df6a6/32ebe6b9-1ca0-43b8-8a20-44a6d2b92704 responded 200 in 24.1626 ms
+2022-02-16 18:52:20.621 +05:00 [INF] HTTP POST /v1/congestiontax responded 200 in 49.9043 ms
+2022-02-16 18:52:25.057 +05:00 [INF] HTTP GET /v1/congestiontax/All/c468b72a-5293-40ee-a180-ddf5c07df6a6/32ebe6b9-1ca0-43b8-8a20-44a6d2b92704 responded 200 in 19.1821 ms
+2022-02-16 18:55:01.590 +05:00 [ERR] Exception occurred System.ArgumentException: Delegate to an instance method cannot have null 'this'.
+   at System.MulticastDelegate.ThrowNullThisInDelegateToInstance()
+   at System.MulticastDelegate.CtorClosed(Object target, IntPtr methodPtr)
+   at CongestionTaxCalculator.Infrastructure.Services.CongestionTaxService.CalculateTaxOfVehicle(Guid vehicleId, Guid cityId, DateTime taxOn)
+   at CongestionTaxCalculator.Infrastructure.Services.CongestionTaxService.CalculateTax(Guid vehicleId, Guid cityId, DateTime taxOn)
+   at CongestionTaxCalculator.Infrastructure.Services.CongestionTaxService.InsertCongestionTax(InsertCongestionTaxDTO request)
+   at CongestionTaxCalculator.WebApi.Controllers.CongestionTaxController.InsertCongestionTax(InsertCongestionTaxDTO tax) in D:\Saim\CongestionTaxCalculator\CongestionTaxCalculator.WebApi\Controllers\CongestionTaxController.cs:line 38
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2022-02-16 18:55:01.599 +05:00 [ERR] HTTP POST /v1/congestiontax responded 500 in 135931.5832 ms
+2022-02-16 18:55:02.370 +05:00 [INF] HTTP GET /swagger/index.html responded 200 in 25.3719 ms
+2022-02-16 18:55:02.708 +05:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 17.5518 ms
+2022-02-16 18:56:54.024 +05:00 [INF] Now listening on: http://localhost:5179
+2022-02-16 18:56:54.066 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-02-16 18:56:54.069 +05:00 [INF] Hosting environment: Development
+2022-02-16 18:56:54.071 +05:00 [INF] Content root path: D:\Saim\CongestionTaxCalculator\CongestionTaxCalculator.WebApi
+2022-02-16 18:56:55.329 +05:00 [INF] HTTP GET /swagger/index.html responded 200 in 175.6908 ms
+2022-02-16 18:56:55.813 +05:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 132.8480 ms
+2022-02-16 18:57:00.149 +05:00 [INF] HTTP GET /v1/city/All responded 200 in 320.8153 ms
+2022-02-16 18:57:42.379 +05:00 [INF] HTTP POST /v1/vehicle responded 200 in 101.7794 ms
+2022-02-16 18:57:45.772 +05:00 [INF] HTTP GET /v1/vehicle/All responded 200 in 39.6472 ms
+2022-02-16 18:59:04.001 +05:00 [INF] HTTP POST /v1/congestiontax responded 200 in 32029.5385 ms
+2022-02-16 19:00:38.723 +05:00 [INF] HTTP POST /v1/congestiontax responded 200 in 86202.5069 ms
+2022-02-16 19:00:44.216 +05:00 [INF] HTTP GET /v1/congestiontax/All/33b19fa1-083a-483a-ba27-b6ff07c614f9/3e7c5c79-fdc2-4ff5-8eea-5c29d5d9ea50 responded 200 in 31.8188 ms
+2022-02-16 19:01:16.369 +05:00 [INF] HTTP POST /v1/congestiontax responded 200 in 25670.7219 ms
+2022-02-16 19:01:20.697 +05:00 [INF] HTTP GET /v1/congestiontax/All/33b19fa1-083a-483a-ba27-b6ff07c614f9/3e7c5c79-fdc2-4ff5-8eea-5c29d5d9ea50 responded 200 in 28.5727 ms
+2022-02-16 19:01:53.593 +05:00 [INF] HTTP POST /v1/congestiontax responded 200 in 24708.9235 ms
+2022-02-16 19:02:04.590 +05:00 [INF] HTTP GET /v1/congestiontax/All/33b19fa1-083a-483a-ba27-b6ff07c614f9/3e7c5c79-fdc2-4ff5-8eea-5c29d5d9ea50 responded 200 in 21.2999 ms
+2022-02-16 19:02:28.620 +05:00 [INF] HTTP POST /v1/congestiontax responded 200 in 14806.7236 ms
+2022-02-16 19:02:38.338 +05:00 [INF] HTTP POST /v1/congestiontax responded 200 in 2625.6904 ms
+2022-02-16 19:02:44.261 +05:00 [INF] HTTP GET /v1/congestiontax/All/33b19fa1-083a-483a-ba27-b6ff07c614f9/3e7c5c79-fdc2-4ff5-8eea-5c29d5d9ea50 responded 200 in 20.1489 ms
+2022-02-16 19:03:23.071 +05:00 [INF] HTTP POST /v1/congestiontax responded 200 in 2014.8982 ms
+2022-02-16 19:03:28.131 +05:00 [INF] HTTP GET /v1/congestiontax/All/33b19fa1-083a-483a-ba27-b6ff07c614f9/3e7c5c79-fdc2-4ff5-8eea-5c29d5d9ea50 responded 200 in 22.5176 ms
+2022-02-16 19:03:40.291 +05:00 [INF] HTTP POST /v1/congestiontax responded 400 in 12.9694 ms
+2022-02-16 19:03:53.342 +05:00 [INF] HTTP GET /v1/congestiontax/All/33b19fa1-083a-483a-ba27-b6ff07c614f9/3e7c5c79-fdc2-4ff5-8eea-5c29d5d9ea50 responded 200 in 21.3674 ms
+2022-02-16 19:04:10.126 +05:00 [INF] HTTP POST /v1/congestiontax responded 400 in 1.4847 ms
+2022-02-16 19:04:35.130 +05:00 [INF] HTTP POST /v1/congestiontax responded 200 in 2015.7104 ms
+2022-02-16 19:04:39.960 +05:00 [INF] HTTP GET /v1/congestiontax/All/33b19fa1-083a-483a-ba27-b6ff07c614f9/3e7c5c79-fdc2-4ff5-8eea-5c29d5d9ea50 responded 200 in 18.3150 ms
+2022-02-16 19:05:09.409 +05:00 [INF] HTTP POST /v1/congestiontax responded 200 in 2781.8667 ms
+2022-02-16 19:05:16.146 +05:00 [INF] HTTP GET /v1/congestiontax/All/33b19fa1-083a-483a-ba27-b6ff07c614f9/3e7c5c79-fdc2-4ff5-8eea-5c29d5d9ea50 responded 200 in 25.8244 ms
+2022-02-16 19:05:49.294 +05:00 [INF] HTTP POST /v1/congestiontax responded 200 in 29.6223 ms
+2022-02-16 19:05:52.057 +05:00 [INF] HTTP GET /v1/congestiontax/All/33b19fa1-083a-483a-ba27-b6ff07c614f9/3e7c5c79-fdc2-4ff5-8eea-5c29d5d9ea50 responded 200 in 22.6083 ms
+2022-02-16 19:06:44.173 +05:00 [INF] HTTP POST /v1/congestiontax responded 200 in 21.4922 ms
+2022-02-16 19:06:46.451 +05:00 [INF] HTTP GET /v1/congestiontax/All/33b19fa1-083a-483a-ba27-b6ff07c614f9/3e7c5c79-fdc2-4ff5-8eea-5c29d5d9ea50 responded 200 in 18.5811 ms
+2022-02-16 19:07:05.900 +05:00 [INF] HTTP POST /v1/congestiontax responded 200 in 18.3872 ms
+2022-02-16 19:07:10.005 +05:00 [INF] HTTP GET /v1/congestiontax/All/33b19fa1-083a-483a-ba27-b6ff07c614f9/3e7c5c79-fdc2-4ff5-8eea-5c29d5d9ea50 responded 200 in 17.1289 ms
+2022-02-16 19:08:03.700 +05:00 [INF] HTTP POST /v1/taxfreeday responded 200 in 32.3351 ms
+2022-02-16 19:08:13.565 +05:00 [INF] HTTP GET /v1/taxfreeday/All/33b19fa1-083a-483a-ba27-b6ff07c614f9 responded 200 in 29.3358 ms
+2022-02-16 19:08:48.176 +05:00 [INF] HTTP POST /v1/congestiontax responded 200 in 36.5480 ms
+2022-02-16 19:08:52.077 +05:00 [INF] HTTP GET /v1/congestiontax/All/33b19fa1-083a-483a-ba27-b6ff07c614f9/3e7c5c79-fdc2-4ff5-8eea-5c29d5d9ea50 responded 200 in 32.0236 ms
+2022-02-16 19:12:25.615 +05:00 [INF] Now listening on: http://localhost:5179
+2022-02-16 19:12:25.654 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-02-16 19:12:25.656 +05:00 [INF] Hosting environment: Development
+2022-02-16 19:12:25.657 +05:00 [INF] Content root path: D:\Saim\CongestionTaxCalculator\CongestionTaxCalculator.WebApi
+2022-02-16 19:12:26.966 +05:00 [INF] HTTP GET /swagger/index.html responded 200 in 259.2262 ms
+2022-02-16 19:12:27.451 +05:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 138.8817 ms
+2022-02-16 19:12:35.210 +05:00 [INF] HTTP GET /v1/city/All responded 200 in 316.6525 ms
+2022-02-16 19:13:05.674 +05:00 [INF] HTTP POST /v1/taxfreeday responded 200 in 114.9576 ms
+2022-02-16 19:13:52.608 +05:00 [INF] HTTP POST /v1/vehicle responded 200 in 51.1209 ms
+2022-02-16 19:13:58.348 +05:00 [INF] HTTP GET /v1/vehicle/All responded 200 in 29.9773 ms
+2022-02-16 19:14:56.576 +05:00 [INF] HTTP POST /v1/congestiontax responded 200 in 31509.3328 ms
+2022-02-16 19:15:00.145 +05:00 [INF] HTTP GET /v1/congestiontax/All/38b824e4-6e7a-4c29-bc6d-8d6a788a8b22/244e6e29-94d2-4448-baa1-e59e4cbed238 responded 200 in 41.3378 ms
+2022-02-16 19:15:24.218 +05:00 [INF] HTTP POST /v1/congestiontax responded 200 in 12992.3896 ms
+2022-02-16 19:15:29.527 +05:00 [INF] HTTP GET /v1/congestiontax/All/38b824e4-6e7a-4c29-bc6d-8d6a788a8b22/244e6e29-94d2-4448-baa1-e59e4cbed238 responded 200 in 25.6081 ms
+2022-02-16 19:15:49.194 +05:00 [INF] HTTP POST /v1/vehicle responded 200 in 22.8069 ms
+2022-02-16 19:15:54.519 +05:00 [INF] HTTP GET /v1/vehicle/All responded 200 in 18.4922 ms
+2022-02-16 19:16:23.307 +05:00 [INF] HTTP POST /v1/congestiontax responded 200 in 41.6844 ms
+2022-02-16 19:16:26.503 +05:00 [INF] HTTP GET /v1/congestiontax/All/38b824e4-6e7a-4c29-bc6d-8d6a788a8b22/63401610-5807-4c47-bd81-16a66d378008 responded 200 in 19.8300 ms
+2022-02-16 19:17:07.343 +05:00 [INF] HTTP POST /v1/congestiontax responded 200 in 14765.9422 ms
+2022-02-16 19:17:35.634 +05:00 [INF] HTTP PUT /v1/vehicle responded 200 in 70.6979 ms
+2022-02-16 19:18:13.485 +05:00 [INF] HTTP POST /v1/congestiontax responded 200 in 29860.0994 ms
+2022-02-16 19:18:17.887 +05:00 [INF] HTTP GET /v1/congestiontax/All/38b824e4-6e7a-4c29-bc6d-8d6a788a8b22/63401610-5807-4c47-bd81-16a66d378008 responded 200 in 23.1286 ms
+2022-02-16 19:18:37.208 +05:00 [INF] HTTP POST /v1/congestiontax responded 200 in 1776.1151 ms
+2022-02-16 19:18:41.707 +05:00 [INF] HTTP GET /v1/congestiontax/All/38b824e4-6e7a-4c29-bc6d-8d6a788a8b22/63401610-5807-4c47-bd81-16a66d378008 responded 200 in 17.2163 ms
+2022-02-16 19:20:30.988 +05:00 [INF] Now listening on: http://localhost:5179
+2022-02-16 19:20:31.027 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-02-16 19:20:31.029 +05:00 [INF] Hosting environment: Development
+2022-02-16 19:20:31.031 +05:00 [INF] Content root path: D:\Saim\CongestionTaxCalculator\CongestionTaxCalculator.WebApi
+2022-02-16 19:20:32.255 +05:00 [INF] HTTP GET /swagger/index.html responded 200 in 198.2291 ms
+2022-02-16 19:20:32.652 +05:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 136.7039 ms
+2022-02-16 19:20:56.721 +05:00 [INF] HTTP GET /v1/city/All responded 200 in 325.5652 ms
+2022-02-16 19:21:29.743 +05:00 [INF] HTTP POST /v1/vehicle responded 200 in 118.9847 ms
+2022-02-16 19:21:34.304 +05:00 [INF] HTTP GET /v1/vehicle/All responded 200 in 52.6098 ms
+2022-02-16 19:21:47.633 +05:00 [INF] HTTP GET /v1/congestiontax/All/617cdfbb-c788-49e8-bf43-ab2d7966132f/6297808a-3c05-4f88-8157-f1291a722f65 responded 200 in 59.0820 ms
+2022-02-16 19:22:27.022 +05:00 [INF] HTTP POST /v1/congestiontax responded 200 in 16897.0839 ms
+2022-02-16 19:22:31.672 +05:00 [INF] HTTP GET /v1/congestiontax/All/617cdfbb-c788-49e8-bf43-ab2d7966132f/6297808a-3c05-4f88-8157-f1291a722f65 responded 200 in 31.5571 ms
+2022-02-16 19:22:41.648 +05:00 [INF] HTTP POST /v1/congestiontax responded 200 in 39.8421 ms
+2022-02-16 19:22:44.574 +05:00 [INF] HTTP GET /v1/congestiontax/All/617cdfbb-c788-49e8-bf43-ab2d7966132f/6297808a-3c05-4f88-8157-f1291a722f65 responded 200 in 21.8177 ms

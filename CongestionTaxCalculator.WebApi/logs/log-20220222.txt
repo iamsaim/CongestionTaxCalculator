@@ -1,0 +1,28 @@
+2022-02-22 13:56:44.759 +05:00 [INF] Now listening on: http://localhost:5179
+2022-02-22 13:56:44.810 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-02-22 13:56:44.811 +05:00 [INF] Hosting environment: Development
+2022-02-22 13:56:44.812 +05:00 [INF] Content root path: C:\Project\CongestionTaxCalculator\CongestionTaxCalculator.WebApi
+2022-02-22 13:56:46.165 +05:00 [INF] HTTP GET /swagger responded 301 in 35.6302 ms
+2022-02-22 13:56:47.174 +05:00 [INF] HTTP GET /swagger/index.html responded 200 in 653.1244 ms
+2022-02-22 13:56:47.697 +05:00 [INF] HTTP GET /swagger/swagger-ui.css responded 200 in 150.5728 ms
+2022-02-22 13:56:47.797 +05:00 [INF] HTTP GET /swagger/swagger-ui-standalone-preset.js responded 200 in 295.5555 ms
+2022-02-22 13:56:48.084 +05:00 [INF] HTTP GET /swagger/swagger-ui-standalone-preset.js responded 200 in 64.9673 ms
+2022-02-22 13:56:48.100 +05:00 [INF] HTTP GET /swagger/swagger-ui-bundle.js responded 200 in 498.2028 ms
+2022-02-22 13:56:48.283 +05:00 [INF] HTTP GET /swagger/swagger-ui-bundle.js responded 200 in 52.7893 ms
+2022-02-22 13:56:52.325 +05:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 390.8924 ms
+2022-02-22 22:00:45.311 +05:00 [INF] Now listening on: http://localhost:5179
+2022-02-22 22:00:45.348 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-02-22 22:00:45.350 +05:00 [INF] Hosting environment: Development
+2022-02-22 22:00:45.352 +05:00 [INF] Content root path: C:\Project\CongestionTaxCalculator\CongestionTaxCalculator.WebApi
+2022-02-22 22:00:46.482 +05:00 [INF] HTTP GET /swagger/index.html responded 200 in 533.5246 ms
+2022-02-22 22:00:48.092 +05:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 218.3004 ms
+2022-02-22 22:01:06.947 +05:00 [INF] HTTP GET /v1/city/All responded 200 in 405.0720 ms
+2022-02-22 22:55:20.929 +05:00 [INF] Now listening on: http://localhost:5179
+2022-02-22 22:55:20.994 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-02-22 22:55:20.995 +05:00 [INF] Hosting environment: Development
+2022-02-22 22:55:20.996 +05:00 [INF] Content root path: C:\Project\CongestionTaxCalculator\CongestionTaxCalculator.WebApi
+2022-02-22 22:55:22.248 +05:00 [INF] HTTP GET /swagger/index.html responded 200 in 356.0494 ms
+2022-02-22 22:55:23.808 +05:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 317.0573 ms
+2022-02-22 22:55:39.828 +05:00 [INF] HTTP GET /v1/city/All responded 200 in 463.9120 ms
+2022-02-22 22:56:02.646 +05:00 [INF] HTTP POST /v1/city responded 200 in 142.0005 ms
+2022-02-22 22:56:07.025 +05:00 [INF] HTTP GET /v1/city/All responded 200 in 19.9625 ms

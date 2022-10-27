@@ -1,0 +1,64 @@
+2022-02-15 20:58:03.961 +05:00 [INF] Now listening on: http://localhost:5179
+2022-02-15 20:58:04.009 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-02-15 20:58:04.011 +05:00 [INF] Hosting environment: Development
+2022-02-15 20:58:04.013 +05:00 [INF] Content root path: D:\Saim\CongestionTaxCalculator\CongestionTaxCalculator.WebApi
+2022-02-15 20:58:05.361 +05:00 [INF] HTTP GET /swagger responded 301 in 37.4924 ms
+2022-02-15 20:58:06.100 +05:00 [INF] HTTP GET /swagger/index.html responded 200 in 674.6271 ms
+2022-02-15 20:58:06.161 +05:00 [INF] HTTP GET /swagger/swagger-ui-standalone-preset.js responded 200 in 119.7465 ms
+2022-02-15 20:58:06.161 +05:00 [INF] HTTP GET /swagger/swagger-ui.css responded 200 in 170.3725 ms
+2022-02-15 20:58:06.172 +05:00 [INF] HTTP GET /swagger/swagger-ui-bundle.js responded 200 in 90.3077 ms
+2022-02-15 20:58:06.688 +05:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 134.0396 ms
+2022-02-15 21:05:21.477 +05:00 [INF] Now listening on: http://localhost:5179
+2022-02-15 21:05:21.543 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-02-15 21:05:21.545 +05:00 [INF] Hosting environment: Development
+2022-02-15 21:05:21.546 +05:00 [INF] Content root path: D:\Saim\CongestionTaxCalculator\CongestionTaxCalculator.WebApi
+2022-02-15 21:05:22.689 +05:00 [INF] HTTP GET /swagger/index.html responded 200 in 248.5541 ms
+2022-02-15 21:05:23.391 +05:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 61.9874 ms
+2022-02-15 21:06:45.184 +05:00 [INF] Now listening on: http://localhost:5179
+2022-02-15 21:06:45.240 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-02-15 21:06:45.242 +05:00 [INF] Hosting environment: Development
+2022-02-15 21:06:45.244 +05:00 [INF] Content root path: D:\Saim\CongestionTaxCalculator\CongestionTaxCalculator.WebApi
+2022-02-15 21:06:46.388 +05:00 [INF] HTTP GET /swagger/index.html responded 200 in 186.1383 ms
+2022-02-15 21:06:46.788 +05:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 82.7317 ms
+2022-02-15 21:07:09.754 +05:00 [INF] Now listening on: http://localhost:5179
+2022-02-15 21:07:09.790 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-02-15 21:07:09.792 +05:00 [INF] Hosting environment: Development
+2022-02-15 21:07:09.794 +05:00 [INF] Content root path: D:\Saim\CongestionTaxCalculator\CongestionTaxCalculator.WebApi
+2022-02-15 21:07:11.290 +05:00 [INF] HTTP GET /swagger/index.html responded 200 in 212.4385 ms
+2022-02-15 21:07:11.766 +05:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 109.8680 ms
+2022-02-15 21:07:59.160 +05:00 [INF] Now listening on: http://localhost:5179
+2022-02-15 21:07:59.225 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-02-15 21:07:59.228 +05:00 [INF] Hosting environment: Development
+2022-02-15 21:07:59.231 +05:00 [INF] Content root path: D:\Saim\CongestionTaxCalculator\CongestionTaxCalculator.WebApi
+2022-02-15 21:08:00.402 +05:00 [INF] HTTP GET /swagger/index.html responded 200 in 249.8628 ms
+2022-02-15 21:08:00.927 +05:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 130.3178 ms
+2022-02-15 21:09:54.203 +05:00 [INF] Now listening on: http://localhost:5179
+2022-02-15 21:09:54.262 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-02-15 21:09:54.264 +05:00 [INF] Hosting environment: Development
+2022-02-15 21:09:54.266 +05:00 [INF] Content root path: D:\Saim\CongestionTaxCalculator\CongestionTaxCalculator.WebApi
+2022-02-15 21:09:55.596 +05:00 [INF] HTTP GET /swagger/index.html responded 200 in 248.4485 ms
+2022-02-15 21:09:56.022 +05:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 103.0324 ms
+2022-02-15 21:14:53.969 +05:00 [INF] Now listening on: http://localhost:5179
+2022-02-15 21:14:54.036 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-02-15 21:14:54.038 +05:00 [INF] Hosting environment: Development
+2022-02-15 21:14:54.039 +05:00 [INF] Content root path: D:\Saim\CongestionTaxCalculator\CongestionTaxCalculator.WebApi
+2022-02-15 21:14:55.282 +05:00 [INF] HTTP GET /swagger/index.html responded 200 in 259.3262 ms
+2022-02-15 21:14:55.700 +05:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 33.5333 ms
+2022-02-15 21:16:21.058 +05:00 [INF] Now listening on: http://localhost:5179
+2022-02-15 21:16:21.098 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-02-15 21:16:21.100 +05:00 [INF] Hosting environment: Development
+2022-02-15 21:16:21.102 +05:00 [INF] Content root path: D:\Saim\CongestionTaxCalculator\CongestionTaxCalculator.WebApi
+2022-02-15 21:16:22.293 +05:00 [INF] HTTP GET /swagger/index.html responded 200 in 222.0554 ms
+2022-02-15 21:16:22.645 +05:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 57.2607 ms
+2022-02-15 21:16:46.957 +05:00 [INF] Now listening on: http://localhost:5179
+2022-02-15 21:16:47.033 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-02-15 21:16:47.035 +05:00 [INF] Hosting environment: Development
+2022-02-15 21:16:47.037 +05:00 [INF] Content root path: D:\Saim\CongestionTaxCalculator\CongestionTaxCalculator.WebApi
+2022-02-15 21:16:48.574 +05:00 [INF] HTTP GET /swagger/index.html responded 200 in 282.8353 ms
+2022-02-15 21:16:49.020 +05:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 144.4684 ms
+2022-02-15 21:24:51.672 +05:00 [INF] Now listening on: http://localhost:5179
+2022-02-15 21:24:51.736 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-02-15 21:24:51.738 +05:00 [INF] Hosting environment: Development
+2022-02-15 21:24:51.739 +05:00 [INF] Content root path: D:\Saim\CongestionTaxCalculator\CongestionTaxCalculator.WebApi
+2022-02-15 21:24:52.938 +05:00 [INF] HTTP GET /swagger/index.html responded 200 in 203.6810 ms
+2022-02-15 21:24:53.342 +05:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 124.7964 ms

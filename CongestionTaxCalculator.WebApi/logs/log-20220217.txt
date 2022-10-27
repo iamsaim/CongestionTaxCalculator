@@ -1,0 +1,14 @@
+2022-02-17 11:21:33.034 +05:00 [INF] Now listening on: http://localhost:5179
+2022-02-17 11:21:33.086 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-02-17 11:21:33.088 +05:00 [INF] Hosting environment: Development
+2022-02-17 11:21:33.089 +05:00 [INF] Content root path: C:\Project\CongestionTaxCalculator\CongestionTaxCalculator.WebApi
+2022-02-17 11:21:35.111 +05:00 [INF] HTTP GET /swagger responded 301 in 27.7097 ms
+2022-02-17 11:21:36.272 +05:00 [INF] HTTP GET /swagger/index.html responded 200 in 858.4942 ms
+2022-02-17 11:21:36.864 +05:00 [INF] HTTP GET /swagger/swagger-ui-bundle.js responded 200 in 501.3647 ms
+2022-02-17 11:21:36.866 +05:00 [INF] HTTP GET /swagger/swagger-ui.css responded 200 in 545.9326 ms
+2022-02-17 11:21:36.909 +05:00 [INF] HTTP GET /swagger/swagger-ui-standalone-preset.js responded 200 in 421.6380 ms
+2022-02-17 11:21:36.993 +05:00 [INF] HTTP GET /swagger/swagger-ui-standalone-preset.js responded 200 in 34.3823 ms
+2022-02-17 11:21:37.141 +05:00 [INF] HTTP GET /swagger/swagger-ui-bundle.js responded 200 in 221.0893 ms
+2022-02-17 11:21:37.255 +05:00 [INF] HTTP GET /swagger/favicon-32x32.png responded 200 in 0.1458 ms
+2022-02-17 11:21:40.688 +05:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 232.5292 ms
+2022-02-17 11:21:49.281 +05:00 [INF] HTTP GET /v1/city/All responded 200 in 400.1910 ms
